@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42B01B1F2AD5309500C64530 /* dirtynibApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B01B1E2AD5309500C64530 /* dirtynibApp.swift */; };
+		42B01B212AD5309500C64530 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B01B202AD5309500C64530 /* ContentView.swift */; };
+		42B01B232AD5309600C64530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B01B222AD5309600C64530 /* Assets.xcassets */; };
+		42B01B262AD5309600C64530 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B01B252AD5309600C64530 /* Preview Assets.xcassets */; };
+		42B01B312AD5309600C64530 /* dirtynibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B01B302AD5309600C64530 /* dirtynibTests.swift */; };
+		42B01B3B2AD5309600C64530 /* dirtynibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B01B3A2AD5309600C64530 /* dirtynibUITests.swift */; };
+		42B01B3D2AD5309600C64530 /* dirtynibUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B01B3C2AD5309600C64530 /* dirtynibUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42B01B2D2AD5309600C64530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42B01B132AD5309500C64530 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B01B1A2AD5309500C64530;
+			remoteInfo = dirtynib;
+		};
+		42B01B372AD5309600C64530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42B01B132AD5309500C64530 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B01B1A2AD5309500C64530;
+			remoteInfo = dirtynib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42B01B1B2AD5309500C64530 /* dirtynib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dirtynib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B01B1E2AD5309500C64530 /* dirtynibApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dirtynibApp.swift; sourceTree = "<group>"; };
+		42B01B202AD5309500C64530 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42B01B222AD5309600C64530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42B01B252AD5309600C64530 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42B01B272AD5309600C64530 /* dirtynib.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dirtynib.entitlements; sourceTree = "<group>"; };
+		42B01B2C2AD5309600C64530 /* dirtynibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dirtynibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B01B302AD5309600C64530 /* dirtynibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dirtynibTests.swift; sourceTree = "<group>"; };
+		42B01B362AD5309600C64530 /* dirtynibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dirtynibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B01B3A2AD5309600C64530 /* dirtynibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dirtynibUITests.swift; sourceTree = "<group>"; };
+		42B01B3C2AD5309600C64530 /* dirtynibUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dirtynibUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42B01B182AD5309500C64530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B01B292AD5309600C64530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B01B332AD5309600C64530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42B01B122AD5309500C64530 = {
+			isa = PBXGroup;
+			children = (
+				42B01B1D2AD5309500C64530 /* dirtynib */,
+				42B01B2F2AD5309600C64530 /* dirtynibTests */,
+				42B01B392AD5309600C64530 /* dirtynibUITests */,
+				42B01B1C2AD5309500C64530 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42B01B1C2AD5309500C64530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42B01B1B2AD5309500C64530 /* dirtynib.app */,
+				42B01B2C2AD5309600C64530 /* dirtynibTests.xctest */,
+				42B01B362AD5309600C64530 /* dirtynibUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42B01B1D2AD5309500C64530 /* dirtynib */ = {
+			isa = PBXGroup;
+			children = (
+				42B01B1E2AD5309500C64530 /* dirtynibApp.swift */,
+				42B01B202AD5309500C64530 /* ContentView.swift */,
+				42B01B222AD5309600C64530 /* Assets.xcassets */,
+				42B01B272AD5309600C64530 /* dirtynib.entitlements */,
+				42B01B242AD5309600C64530 /* Preview Content */,
+			);
+			path = dirtynib;
+			sourceTree = "<group>";
+		};
+		42B01B242AD5309600C64530 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				42B01B252AD5309600C64530 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42B01B2F2AD5309600C64530 /* dirtynibTests */ = {
+			isa = PBXGroup;
+			children = (
+				42B01B302AD5309600C64530 /* dirtynibTests.swift */,
+			);
+			path = dirtynibTests;
+			sourceTree = "<group>";
+		};
+		42B01B392AD5309600C64530 /* dirtynibUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42B01B3A2AD5309600C64530 /* dirtynibUITests.swift */,
+				42B01B3C2AD5309600C64530 /* dirtynibUITestsLaunchTests.swift */,
+			);
+			path = dirtynibUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42B01B1A2AD5309500C64530 /* dirtynib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B01B402AD5309600C64530 /* Build configuration list for PBXNativeTarget "dirtynib" */;
+			buildPhases = (
+				42B01B172AD5309500C64530 /* Sources */,
+				42B01B182AD5309500C64530 /* Frameworks */,
+				42B01B192AD5309500C64530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dirtynib;
+			productName = dirtynib;
+			productReference = 42B01B1B2AD5309500C64530 /* dirtynib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42B01B2B2AD5309600C64530 /* dirtynibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B01B432AD5309600C64530 /* Build configuration list for PBXNativeTarget "dirtynibTests" */;
+			buildPhases = (
+				42B01B282AD5309600C64530 /* Sources */,
+				42B01B292AD5309600C64530 /* Frameworks */,
+				42B01B2A2AD5309600C64530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42B01B2E2AD5309600C64530 /* PBXTargetDependency */,
+			);
+			name = dirtynibTests;
+			productName = dirtynibTests;
+			productReference = 42B01B2C2AD5309600C64530 /* dirtynibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42B01B352AD5309600C64530 /* dirtynibUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B01B462AD5309600C64530 /* Build configuration list for PBXNativeTarget "dirtynibUITests" */;
+			buildPhases = (
+				42B01B322AD5309600C64530 /* Sources */,
+				42B01B332AD5309600C64530 /* Frameworks */,
+				42B01B342AD5309600C64530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42B01B382AD5309600C64530 /* PBXTargetDependency */,
+			);
+			name = dirtynibUITests;
+			productName = dirtynibUITests;
+			productReference = 42B01B362AD5309600C64530 /* dirtynibUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42B01B132AD5309500C64530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					42B01B1A2AD5309500C64530 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					42B01B2B2AD5309600C64530 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 42B01B1A2AD5309500C64530;
+					};
+					42B01B352AD5309600C64530 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 42B01B1A2AD5309500C64530;
+					};
+				};
+			};
+			buildConfigurationList = 42B01B162AD5309500C64530 /* Build configuration list for PBXProject "dirtynib" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42B01B122AD5309500C64530;
+			productRefGroup = 42B01B1C2AD5309500C64530 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42B01B1A2AD5309500C64530 /* dirtynib */,
+				42B01B2B2AD5309600C64530 /* dirtynibTests */,
+				42B01B352AD5309600C64530 /* dirtynibUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42B01B192AD5309500C64530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B01B262AD5309600C64530 /* Preview Assets.xcassets in Resources */,
+				42B01B232AD5309600C64530 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B01B2A2AD5309600C64530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B01B342AD5309600C64530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42B01B172AD5309500C64530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B01B212AD5309500C64530 /* ContentView.swift in Sources */,
+				42B01B1F2AD5309500C64530 /* dirtynibApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B01B282AD5309600C64530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B01B312AD5309600C64530 /* dirtynibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B01B322AD5309600C64530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B01B3D2AD5309600C64530 /* dirtynibUITestsLaunchTests.swift in Sources */,
+				42B01B3B2AD5309600C64530 /* dirtynibUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42B01B2E2AD5309600C64530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42B01B1A2AD5309500C64530 /* dirtynib */;
+			targetProxy = 42B01B2D2AD5309600C64530 /* PBXContainerItemProxy */;
+		};
+		42B01B382AD5309600C64530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42B01B1A2AD5309500C64530 /* dirtynib */;
+			targetProxy = 42B01B372AD5309600C64530 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42B01B3E2AD5309600C64530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42B01B3F2AD5309600C64530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		42B01B412AD5309600C64530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dirtynib/dirtynib.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dirtynib/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hacktricks.sec.dirtynib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		42B01B422AD5309600C64530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = dirtynib/dirtynib.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dirtynib/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hacktricks.sec.dirtynib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		42B01B442AD5309600C64530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hacktricks.sec.dirtynibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dirtynib.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dirtynib";
+			};
+			name = Debug;
+		};
+		42B01B452AD5309600C64530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hacktricks.sec.dirtynibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dirtynib.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dirtynib";
+			};
+			name = Release;
+		};
+		42B01B472AD5309600C64530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hacktricks.sec.dirtynibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = dirtynib;
+			};
+			name = Debug;
+		};
+		42B01B482AD5309600C64530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hacktricks.sec.dirtynibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = dirtynib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42B01B162AD5309500C64530 /* Build configuration list for PBXProject "dirtynib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B01B3E2AD5309600C64530 /* Debug */,
+				42B01B3F2AD5309600C64530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B01B402AD5309600C64530 /* Build configuration list for PBXNativeTarget "dirtynib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B01B412AD5309600C64530 /* Debug */,
+				42B01B422AD5309600C64530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B01B432AD5309600C64530 /* Build configuration list for PBXNativeTarget "dirtynibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B01B442AD5309600C64530 /* Debug */,
+				42B01B452AD5309600C64530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B01B462AD5309600C64530 /* Build configuration list for PBXNativeTarget "dirtynibUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B01B472AD5309600C64530 /* Debug */,
+				42B01B482AD5309600C64530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42B01B132AD5309500C64530 /* Project object */;
+}
