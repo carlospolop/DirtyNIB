@@ -14,6 +14,7 @@
 		42B01B312AD5309600C64530 /* dirtynibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B01B302AD5309600C64530 /* dirtynibTests.swift */; };
 		42B01B3B2AD5309600C64530 /* dirtynibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B01B3A2AD5309600C64530 /* dirtynibUITests.swift */; };
 		42B01B3D2AD5309600C64530 /* dirtynibUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B01B3C2AD5309600C64530 /* dirtynibUITestsLaunchTests.swift */; };
+		42B01B4E2AD544C600C64530 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B01B4D2AD544C600C64530 /* Window.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		42B01B362AD5309600C64530 /* dirtynibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dirtynibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B01B3A2AD5309600C64530 /* dirtynibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dirtynibUITests.swift; sourceTree = "<group>"; };
 		42B01B3C2AD5309600C64530 /* dirtynibUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dirtynibUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42B01B4D2AD544C600C64530 /* Window.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				42B01B222AD5309600C64530 /* Assets.xcassets */,
 				42B01B272AD5309600C64530 /* dirtynib.entitlements */,
 				42B01B242AD5309600C64530 /* Preview Content */,
+				42B01B4D2AD544C600C64530 /* Window.xib */,
 			);
 			path = dirtynib;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			files = (
 				42B01B262AD5309600C64530 /* Preview Assets.xcassets in Resources */,
 				42B01B232AD5309600C64530 /* Assets.xcassets in Resources */,
+				42B01B4E2AD544C600C64530 /* Window.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
